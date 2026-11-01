@@ -1,0 +1,2 @@
+time_utc,signal_date,action,max_drift,target,spy_above_ma
+2026-11-01T22:08:21+00:00,2026-10-30,dry_run,0.594,"{""SPY"": 0.594, ""DBC"": 0.0599, ""BIL"": 0.3361}",True
