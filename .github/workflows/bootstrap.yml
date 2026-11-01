@@ -1,0 +1,21 @@
+name: bootstrap-import
+on:
+  push:
+    paths: ["payload.tgz"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack code
+        run: |
+          tar -xzf payload.tgz
+          git rm -q payload.tgz
+          git config user.name "pickupmicro"
+          git config user.email "spacemit2@gmail.com"
+          git add -A
+          git commit -m "v1.0.0: Trend Core-Satellite strategy on FinRL-X with automated Alpaca paper trading"
+          git push
