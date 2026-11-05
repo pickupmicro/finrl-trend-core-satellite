@@ -1,0 +1,4 @@
+time_utc,mode,symbol,side,qty,status,order_id
+2026-11-05T15:41:11+00:00,rebalance,DBC,buy,186.171899777,pending_new,32674ad9-9e1f-4be1-865f-e3692bb2cf19
+2026-11-05T15:41:11+00:00,rebalance,SPY,buy,79.586791808,pending_new,cfec431e-3ff3-49dc-afcc-f7546ac2ebfa
+2026-11-05T15:41:11+00:00,rebalance,BIL,buy,368.875765529,pending_new,9e86e686-597a-41ff-80d3-d248a9498fa0
